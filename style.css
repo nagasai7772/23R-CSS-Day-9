@@ -1,0 +1,302 @@
+:root{
+       --bgclr:grey;
+       --h:1900px;
+       --w:1600px;
+       --ih:40vh;
+       --iw:10vw;
+
+}
+
+.main{
+    background-image: url("https://static1.cbrimages.com/wordpress/wp-content/uploads/2018/12/avengers-4-logo-1-header.jpg"); 
+        height: var(--h);
+        width: var(--w);
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+               background-repeat: no-repeat; 
+          align-items: center;
+          background-size: contain;
+          
+          
+}
+
+
+h1{
+    color:aliceblue;
+    font-style: oblique;
+    font-size: 30px;
+    background-color: violet;
+}
+h1:hover{
+    color:yellow;
+    transform: width 2s height 2s ;
+    height:100px;
+    width:200px;
+    transition-timing-function: ease-in-out;
+    transition-duration: 1s;
+    
+}
+
+
+
+
+.main1{
+    display: flex;
+    gap: 10px;
+    
+}
+
+         
+.img1{
+     background-image:url('https://www.pixel4k.com/wp-content/uploads/2018/09/iron-man-minimalism-5k_1536522504.jpg');
+         height: var(--ih);
+         width: var(--iw);
+         background-repeat: no-repeat;
+         background-size: cover;
+         border-radius: 10px;
+         background-position: center center;
+         
+        
+}
+
+    
+
+
+.img1:hover{
+    transition-timing-function:ease-in;
+    width: 800px;
+    height: 600px;
+    
+    box-shadow: 5px 5px 35px darkred;
+    
+    transition-duration: 1s;
+    transition: width 2s, height 2s transform 2s;
+    transform: rotate(360deg);
+
+}
+.img2{
+    background-image:url('https://c4.wallpaperflare.com/wallpaper/168/856/47/captain-america-chris-evans-captain-america-the-first-avenger-wallpaper-preview.jpg');
+    height: var(--ih);
+    width: var(--iw);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 10px;
+    
+
+}
+.img2:hover{
+    transition-timing-function:ease-in;
+    width: 400px;
+    height: 500px;
+    
+    box-shadow: 0px 0px 25px blue;
+    
+    transition-duration: 1s;
+    transition: width 2s, height 2s transform 2s;
+   transform: rotate(-360deg);
+}
+.img3{
+      background-image:url("https://w0.peakpx.com/wallpaper/540/620/HD-wallpaper-spider-man-spiderman-marvel-spider-man-superheros.jpg");
+      height: var(--ih);
+      width: var(--iw);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      border-radius: 10px;
+}
+.img3:hover{
+    transition-timing-function:ease-in;
+    width: 360px;
+    height: 460px;
+    
+    box-shadow: 0px 0px 25px rgb(232, 8, 8);
+    
+    transition-duration: 1s;
+    transition: width 2s, height 2s transform 2s;
+    transform: rotate(360deg);
+
+}
+.img4{
+    background-image: url("https://i.pinimg.com/736x/87/ce/65/87ce65b6a5eb549e5c06a62323bcba9a.jpg");
+    height: var(--ih);
+    width:var(--iw);
+    background-position: center center;
+    background-size: cover;
+    border-radius: 10px;
+      
+}
+.img4:hover{
+    transition-timing-function:ease-in;
+    width: 360px;
+    height: 460px;
+    
+    box-shadow: 0px 0px 25px aqua;
+    
+    transition-duration: 1s;
+    transition: width 2s, height 2s transform 2s;
+    transform: rotate(-360deg);
+}
+.img5{
+    background-image: url(https://w0.peakpx.com/wallpaper/549/729/HD-wallpaper-hulk-avenger.jpg);
+    height: var(--ih);
+    width: var(--iw);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+
+.img5:hover
+{
+    transition-timing-function:ease-in;
+    width: 360px;
+    height: 460px;
+    
+    box-shadow: 0px 0px 25px green;
+    
+    transition-duration: 1s;
+    transition: width 2s, height 2s transform 2s;
+    transform: rotate(360deg);
+
+}
+
+.main2{
+    display: flex;
+    gap: 10px;
+    
+
+}
+       .img6{
+        background-image:url(https://i.pinimg.com/736x/54/4d/a2/544da2dfb8987eff09cbc6f30f79d04c.jpg);
+        height: var(--ih);
+        width:var(--iw);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 10px;
+        
+       }
+       .img6:hover{
+        transition-timing-function:ease-in;
+        width: 360px;
+        height: 460px;
+        
+        box-shadow: 0px 0px 25px purple;
+        
+        transition-duration: 1s;
+        transition: width 2s, height 2s transform 2s;
+        transform: rotate(-360deg);
+    
+       }
+       
+.img7{
+    background-image: url(https://wallpapercave.com/wp/wp13118900.jpg);
+    height: var(--ih);
+    width: var(--iw);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+.img7:hover{
+    transition-timing-function:ease-in;
+    width: 360px;
+    height: 460px;
+    
+    box-shadow: 0px 0px 25px brown;
+    
+    transition-duration: 1s;
+    transition: width 2s, height 2s transform 2s;
+    transform: rotate(360deg);
+
+
+}
+
+.img8{
+    background-image: url(https://i.pinimg.com/736x/5e/6a/01/5e6a01e41322b9454a88b9d135ec0b91.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 10px;
+    height: var(--ih);
+    width: var(--iw);
+}
+.img8:hover{
+    transition-timing-function:ease-in;
+    width: 360px;
+    height: 460px;
+    
+    box-shadow: 0px 0px 25px gold;
+    
+    transition-duration: 1s;
+    transition: width 2s, height 2s transform 2s;
+    transform: rotate(-360deg);
+
+
+
+}
+.img9{
+    background-image: url(https://i.pinimg.com/736x/fa/a9/a0/faa9a0f7593e5564ed03a0940bee0fc6.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    height: var(--ih);
+    width: var(--iw);
+}
+.img9:hover{
+    transition-timing-function:ease-in;
+    width: 360px;
+    height: 460px;
+    
+    box-shadow: 0px 0px 25px crimson;
+    
+    transition-duration: 1s;
+    transition: width 2s, height 2s transform 2s;
+    transform: rotate(360deg);
+
+
+}
+.img10{
+    background-image: url(https://w0.peakpx.com/wallpaper/241/976/HD-wallpaper-thanos-poster-thumbnail.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 10px;
+    height: var(--ih);
+    width: var(--iw);
+}
+.img10:hover{
+    transition-timing-function:ease-in;
+    width: 360px;
+    height: 460px;
+    
+    box-shadow: 0px 0px 25px indigo;
+    
+    transition-duration: 1s;
+    transition: width 2s, height 2s transform 2s;
+    transform: rotate(-360deg);
+
+}
+
+
+
+
+
+
+
+/* 
+img{
+    height: var(--ih);
+    width: var(--iw);
+    border: 2px solid white;
+    border-radius: 10px;
+
+    
+}
+img:hover{
+    
+} */
